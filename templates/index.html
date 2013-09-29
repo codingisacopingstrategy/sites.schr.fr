@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Sites . schr . fr</title>
+<link rel="stylesheet" type="text/css" href="http://schr.fr/wp-content/themes/schr/reset.css">
+<link rel="stylesheet" type="text/css" href="http://schr.fr/wp-content/themes/schr/960.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+<script src="http://schr.fr/wp-content/themes/twentyten/jquery.min.js"></script>
+<script src="http://schr.fr/wp-content/themes/twentyten/jquery.placeheld.min.js"></script>   
+<style>
+    div {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    div.image p {
+        margin-bottom: 0;
+    }
+    .role td:first-child span {
+        background-color: yellow;
+        background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+        background-size: 25px 25px;
+    }
+    body {
+        margin: 0;
+        background: none;
+    }
+    div.container_12 {
+        width: inherit;
+    }
+    .grid {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    div.image {
+        float: left;
+        margin-left: 10px;
+        margin-right: 24px;
+        margin-bottom: 30px;
+    }
+    
+    div.image div a {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    p {
+        font-size: 14px;
+    }
+    div.image p {
+        padding-left: 8px;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        font-size: 14px;
+        color: #584D4D;
+    }
+    .year {
+        float: right;
+    }
+    tr {
+        border-bottom: 2px solid white;
+    }
+    td:first-child {
+        font-style: italic;
+        width: 70px;
+    }
+    td:first-child:not(.design):after {
+        content: ":";
+    }
+    h1.entry-title {
+        position: fixed;
+        top: 0;
+        left: 10px;
+        z-index: 1111;
+    }
+    div.container_12 {
+        margin-top: 100px;
+    }
+    .sidebar h3 {
+        margin-bottom: 4px;
+    }
+    .sidebar h3 + p {
+        text-indent: 0;
+    }
+</style>
+</head>
+<body class="single">
+
+
+<div id="content" class="container_12">
+<div class="suffix_3 grid" style="width:100%">
+
+
+
+<div id="" class="">
+<h1 class="entry-title"><a>Sites</a></h1>
+<div class="entry-content">
+
+<div class="image back-end">
+    <p><a href="http://www.acsr.be">{{ "www.ascr.be.2.png" | image}}</a></p>
+    <p class="year">2013</p>
+    <h4>Atelier de Création Sonore Radiophonique</h4>
+    <table style="width:{{ "www.ascr.be.2.png" | width }}px;">
+    <tr class="role"><td>Back end</td><td>Wordpress (PHP).<br/>
+        <em>With Stéphanie Villayphiou.</em></td></tr>
+    <tr><td>Design</td><td>Ludivine Loiseau, Stéphanie Villayphiou (OSP) + Jérôme Degive</td></tr>
+    <tr><td>Agency</td><td>OSP</td></tr>
+    </table>
+</div>
+
+<div class="image front-end design">
+    <p><a href="http://bessst.be/">{{ "bessst.be.png" | image}}</a></p>
+    <p class="year">2013</p>
+    <h4>Bessst&thinsp;—&thinsp;Brussel, Erfgoed en Stilte</h4>
+    <table style="width:{{ "bessst.be.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, LESS / CSS, JS (jQuery, Masonry, leaflet.js, page.js)</td></tr>
+    <tr class="role"><td>Back end</td><td>Django (Python)</td></tr>
+    <tr class="role"><td class="design">Design</td><td></td></tr>
+    <tr><td>Agency</td><td>OSP. <em>Collaborators: Ludivine Loiseau, Stéphanie Villayphiou</em></td></tr>
+    </table>
+</div>
+
+
+<div class="image front-end design">
+    <p><a href="http://www.foryoureyesonly.be/index.html">{{ "www.foryoureyesonly.be.png" | image}}</a></p>
+    <p class="year">2012</p>
+    <h4>For your eyes only</h4>
+    <table  style="width:{{ "www.foryoureyesonly.be.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, LESS / CSS, JS (jQuery, gridster.js)</td></tr>
+    <tr class="role"><td class="design" colspan="2">Design</td></tr>
+    <tr><td>Agency</td><td>OSP. <em>Collaborators: Pierre Marchand, Colm o’Neill</em></td></tr>
+    </table>
+</div>
+
+<div class="image front-end back-end django design">
+    <p><a href="http://www.spion.me/">{{ "www.spion.me.png" | image}}</a></p>
+    <p class="year">2013</p>
+    <h4>SPION</h4>
+    <table  style="width:{{ "www.spion.me.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, LESS / CSS, JS (jQuery, Masonry, JSON)</td></tr>
+    <tr class="role"><td>Back end</td><td>Django (Python), Piwik (PHP)</td></tr>
+    <tr class="role"><td class="design" colspan="2">Design</td></tr>
+    <tr><td>Agency</td><td>OSP. <em>Collaborators: Pierre Marchand, Colm o’Neill</em></td></tr>
+    </table>
+</div>
+
+<div class="image front-end design">
+    <p><a href="http://variable.constantvzw.org/">{{ "variable.constantvzw.org.png" | image }}</a></p>
+    <p class="year">2011</p>
+    <h4>Constant Variable</h4>
+    <table style="width:{{ "variable.constantvzw.org.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, CSS, JS (Canvas, jQuery)</td></tr>
+    <tr class="role"><td class="design">Design</td><td></td></tr>
+    <tr><td>Agency</td><td>OSP. <em>Collaborator: Gijs de Heij</em></td></tr>
+    </table>
+</div>
+
+<div class="image front-end back-end design django">
+    <p><a href="http://www.psychiaterdeweme.nl/">{{ "www.psychiaterdeweme.nl.png" | image }}</a></p>
+    <p class="year">2011</p>
+    <h4>R.J.C. de Weme psychiater/psychotherapeut</h4>
+    <table style="width:{{ "www.psychiaterdeweme.nl.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, CSS (Twitter Bootstrap), JS (Canvas, jQuery, jQuery UI)</td></tr>
+    <tr class="role"><td>Back end</td><td>Django (Python).</td></tr>
+    <tr class="role"><td class="design">Design</td><td></td></tr>
+    </table>
+</div>
+
+<div class="image front-end back-end design wordpress">
+    <p><a href="http://schr.fr/">{{ "schr.fr.png" | image }}</a></p>
+    <p class="year">2011</p>
+    <h4>Schr.fr</h4>
+    <table  style="width:{{ "schr.fr.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, CSS, JS (jQuery)</td></tr>
+    <tr class="role"><td>Back end</td><td>Wordpress (PHP).</td></tr>
+    <tr class="role"><td class="design">Design</td><td></td></tr>
+    </table>
+</div>
+
+<div class="image front-end back-end design django">
+    <p><a href="http://network-for-choreographic-art.nl/">{{ "network-for-choreographic-art.nl.png" | image }}</a></p>
+    <p class="year">2011</p>
+    <h4>Network for Choreography &amp; Related Art</h4>
+    <table style="width:{{ "network-for-choreographic-art.nl.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, CSS, JS (jQuery)</td></tr>
+    <tr class="role"><td>Back end</td><td>Django (Python)</td></tr>
+    <tr class="role"><td class="design">Design</td><td></td></tr>
+    </table>
+</div>
+
+<div class="image front-end back-end movable-type">
+    <p><a href="http://i.liketightpants.net/and/">{{ "i.liketightpants.net.png" | image }}</a></p>
+    <p class="year">2010</p>
+    <h4>I like tight pants and mathematics</h4>
+    <table style="width:{{ "i.liketightpants.net.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, LESS / CSS, JS (jQuery)</td></tr>
+    <tr class="role"><td>Back end</td><td>Movable Type (Perl), PhantomJS.</td></tr>
+    <tr><td>Design</td><td>You &amp; McCuskey</td></tr>
+    </table>
+</div>
+
+<div class="image front-end">
+    <p><a href="http://abcd.nu/">{{ "abcd.nu.png" | image }}</a></p>
+    <p class="year">2010</p>
+    <h3>About Brands Concepts Design</h3>
+    <table style="width:{{ "abcd.nu.png" | width }}px;">
+    <tr class="role"><td>Front end</td><td>HTML, CSS</td></tr>
+    <tr><td>Back end</td><td>Wordpress (PHP)<br/><em>by Michiel Sikma</em></td></tr>
+    <tr><td>Design</td><td>You &amp; McCuskey</td></tr>
+    <tr><td>Agency</td><td>You &amp; McCuskey</td></tr>
+    </table>
+</div>
+
+
+</div><!-- .entry-content -->
+
+</div><!-- #post-## -->
+
+</div>
+<div style="width:220px;position:fixed;top:0;right:10px;" class="sidebar">
+<h1><a href="http://schr.fr/" title="schr.fr" rel="home">schr.fr</a></h1>
+
+<p>Eric Schrijver is a web developer and web designer based in Brussels. Used to working in French, English and Dutch, Eric is available for contract work on and off-site. <a id="contact"></a></p>
+
+<h3><input type="checkbox" value="design" checked>Design</h3>
+<p>Clear typographical hierarchies and custom web font adaptations make your content come into its own.</p>
+<h3><input type="checkbox" value="front-end" checked>Front-end Development</h3>
+<p>Maintainable, standards based code, benefiting from the latest technological developments.</p>
+<h3><input type="checkbox" value="back-end" checked>Back-end Development</h3>
+<ul>
+    <li><input type="checkbox" value="wordpress" checked>Wordpress</li>
+    <li><input type="checkbox" value="django" checked>Django</li>
+    <li><input type="checkbox" value="movable-type" checked>Movable Type</li>
+</ul>
+
+
+
+</div>
+</div><!-- #container -->
+<script src="/static/js/masonry.pkgd.min.js"></script>
+<script src="/static/js/imagesloaded.pkgd.min.js"></script>
+<script>
+    // initialize Masonry
+    var container = document.querySelector('.entry-content');
+    var msnry = new Masonry( container, { "columnWidth": 8, "itemSelector": ".image" });
+    // layout Masonry again after all images have loaded
+    imagesLoaded( container, function() {
+      msnry.layout();
+    });
+
+    $("div.image td:first-child").each(function() {
+        $(this).html('<span>' + $(this).html() + '</span>');
+    })
+    
+    // when we click on a checkbox
+    $("input[type=checkbox]").click(function() {
+        // find all checked checkboxes
+        var checked = $("input[type=checkbox]:checked")
+        if (checked.length === 0) {
+            $('div.image').hide();
+        } else {
+            // a checkbox is like: <input type=​"checkbox" value=​"design" checked>​
+            // we want to find the value.
+            // with all the values, we want to create a css selector as such:
+            // ".design, .wordpress, .django, .movable-type"
+            var classNames = '.' + checked.map(function(){ return $(this).attr('value') }).get().join(', .');
+            // show any element that contains any of these classes
+            console.log('showing this, and hiding what is not:', classNames);
+            $(classNames).show();
+            // hide the rest
+            $('div.image').not(classNames).hide();
+        }
+        // redo the masonry
+        msnry.layout();
+    });
+    
+    twee = '.revjirhcscire@cire||ln';
+    tweetjes = twee.split("||");
+    var reverse = function (s) {
+      var ret ='';
+      for (var i=s.length-1;i>=0;i--)
+        ret+=s.charAt(i);
+      return ret;
+    }
+    twee = reverse(tweetjes[0])+reverse(tweetjes[1]);
+    $('#contact').attr('href', 'mailto:' + twee).text(twee)
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://var.schr.fr/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "6"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+</body>
